@@ -1,0 +1,120 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: skyblue;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 100vh;
+
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 400px;
+    max-width: 470px;
+    max-height: 600px;
+    background-color: white;
+    padding: 20px;
+
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.col-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    height: 35px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 3px 3px 8px;
+    font-size: 15px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3E8EDE;
+    color: white;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    border: none;
+    margin-left: 5px;
+    box-shadow: 2px 2px 8px black;
+
+}
+
+button:active {
+    background-color: #000f89;
+}
+
+#para,
+#para1,
+#para2,
+#para3 {
+    text-transform: capitalize;
+    text-decoration: solid;
+    font-size: 20px;
+    padding: 5px 0px 0px 10px;
+    margin-top: 10px !important;
+    margin-bottom: 5px;
+
+
+
+}
+
+#span,
+#span1,
+#span2,
+#span3 {
+    padding: 5px 0px 0px 10px;
+}
+
+
+.box .active {
+    display: block;
+}
+
+
+.Example,
+.meaning,
+.Synonyms {
+    background-color: white;
+    border-radius: 5px;
+    border-left: 3px solid blue;
+    margin-bottom: 10px;
+    max-width: 400px;
+    overflow: hidden;
+    background-color: #AFDBF5;
+}
+
+
+.text {
+    display: none;
+}
+
+.itext {
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.material-symbols-outlined {
+    display: flex;
+    justify-content: end;
+
+}
